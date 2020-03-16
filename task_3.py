@@ -7,7 +7,8 @@ from pyrob.api import *
 def task_3_1():
     while not wall_is_on_the_right():
         move_right()
-    move_left()
+    pass
+
 
 
 if __name__ == '__main__':
